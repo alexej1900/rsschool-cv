@@ -18,8 +18,8 @@ Russian, Belarusian, Ukrainian native.
 https://github.com/alexej1900/realtors
 ### Experience: 
 ### Education:
-August 1998 - July 2003, , Belarusian State University of Informatics and Radio Electronics, faculty of infocommunications. 
-2020 - open courses on learning HTML, CSS, JS. GeekBrains, Hexlet, HTML Academy etc.
+- August 1998 - July 2003, Belarusian State University of Informatics and Radio Electronics, faculty of infocommunications. 
+- 2020 - open courses on learning HTML, CSS, JS. GeekBrains, Hexlet, HTML Academy etc.
 ### English: 
 unfortunately A0. Working on leveling up.
 
