@@ -1,6 +1,6 @@
 ### Name:  Aliaksei Badnarchuk
 ### Contact Info: 
-- tel: +375 (29) 321-28-00
+- tel: +375 (29) 321 28 00
 - mail: [alexej1900@mail.ru]( alexej1900@mail.ru)
 - https://linkedin.com/in/алексей-боднарчук-6089591b5
 ### Summary: 
