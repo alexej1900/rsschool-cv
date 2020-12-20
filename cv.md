@@ -15,7 +15,8 @@ Russian, Belarusian, Ukrainian native.
  - Photoshop
  - Corel DRAW.
 ### Сode examples:
-https://github.com/alexej1900/realtors
+- https://github.com/alexej1900/realtors
+- https://github.com/alexej1900/showroom
 ### Experience: 
 ### Education:
 - August 1998 - July 2003, Belarusian State University of Informatics and Radio Electronics, faculty of infocommunications. 
