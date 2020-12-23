@@ -1,0 +1,363 @@
+/*Общие настройки*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2c2c2c;
+    font-family: "Geomanist", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    line-height: 1.3;
+    font-weight: 900;
+    color: #fefefe;
+}
+
+a {
+    text-decoration: none;
+    color: #fefefe;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+
+/*Шапка*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    background-image: url(/img/ab1-logo22.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.logo:hover {
+    background-image: url(/img/ab1-logo33.png);
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav a {
+    margin-right: 10px;
+}
+
+nav a:hover {
+    color: #faff91;
+}
+
+@media (max-width: 768px) {
+    .nav-link {
+        font-size: .8em;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 375px) {
+    .nav-link {
+        font-size: .6em;
+        margin-bottom: 10px;
+    }
+}
+
+
+/*Кнопка вверх*/
+
+.up {
+    position: fixed;
+    bottom: 5%;
+    right: 7%;
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+}
+
+.up:hover {
+    background-color: #faff91;
+}
+
+.up:hover a {
+    color: #000000;
+}
+
+
+/*Секции*/
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+    color: #faff91;
+}
+
+
+/*Секция обо мне */
+
+#about {
+    flex-direction: row;
+    align-items: center;
+}
+
+.photo {
+    height: 400px;
+    width: 450px;
+    border-radius: 50%;
+    background-image: url(/img/My-photo.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+@media (max-width: 1024px) {
+    .title {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    #about {
+        flex-direction: column;
+    }
+    .title {
+        font-size: 1em;
+    }
+    .photo {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 375px) {
+    .photo {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+.about-item {
+    padding-left: 20px;
+}
+
+.name {
+    margin: 50px 0;
+    font-size: 2.5em;
+}
+
+@media (max-width: 1024px) {
+    .name {
+        font-size: 1.3em;
+    }
+}
+
+@media (max-width: 768px) {
+    .name {
+        font-size: 1em;
+        text-align: center;
+        margin: 20px 0;
+    }
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    li {
+        margin-bottom: 5px;
+        font-size: .8em;
+    }
+}
+
+@media (max-width: 425px) {
+    li {
+        font-size: .7em;
+    }
+}
+
+@media (max-width: 375px) {
+    li {
+        font-size: .6em;
+    }
+}
+
+.text {
+    margin: 0 auto;
+    max-width: 80%;
+    letter-spacing: .05em;
+    font-size: 1.2em;
+}
+
+@media (max-width: 1024px) {
+    .text {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 768px) {
+    .text {
+        font-size: .8em;
+    }
+}
+
+@media (max-width: 425px) {
+    .text {
+        font-size: .6em;
+    }
+}
+
+@media (max-width: 320px) {
+    .text {
+        font-size: .5em;
+    }
+}
+
+
+/*Секция навыков*/
+
+.skills-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 30%;
+    margin: 20px;
+}
+
+.slills-logo {
+    height: 100px;
+    margin-right: 20px;
+}
+
+@media (max-width: 1024px) {
+    .slills-logo {
+        height: 70px;
+        margin-right: 10px;
+    }
+    .skills-item {
+        flex: 1 1 25%;
+    }
+}
+
+@media (max-width: 768px) {
+    .slills-logo {
+        height: 50px;
+    }
+}
+
+@media (max-width: 425px) {
+    .skills-p {
+        font-size: .8em;
+    }
+    .slills-logo {
+        height: 40px;
+    }
+    .skills-item {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 375px) {
+    .skills-p {
+        font-size: .6em;
+    }
+}
+
+
+/*Секция примеров кода*/
+
+.example img {
+    width: 20vw;
+}
+
+.example-item {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.example-item-img {
+    display: flex;
+    justify-content: center;
+}
+
+.example-item-img img {
+    margin: 20px;
+}
+
+@media (max-width: 1024px) {
+    .example-item-img img {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .example img {
+        width: 25vw;
+    }
+    .code-exampl {
+        font-size: .8em;
+    }
+    .example-item-img img {
+        margin: 15px;
+    }
+}
+
+@media (max-width: 425px) {
+    .example img {
+        width: 30vw;
+    }
+    .code-exampl {
+        font-size: .6em;
+    }
+}
+
+@media (max-width: 425px) {
+    .code-exampl {
+        font-size: .5em;
+    }
+    .example-item-img img {
+        margin: 10px;
+    }
+}
+
+
+/*Секция образование*/
+
+#education .text {
+    margin-bottom: 30px;
+    text-align-last: left;
+}
+
+#education .text span {
+    color: #faff91;
+}
