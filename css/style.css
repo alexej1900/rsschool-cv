@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #2c2c2c;
+    background-color: #9d8d8d;
     font-family: "Geomanist", Helvetica, Arial, sans-serif;
     font-size: 24px;
     line-height: 1.3;
@@ -38,14 +38,14 @@ header {
 .logo {
     height: 100px;
     width: 100px;
-    background-image: url(/img/ab1-logo22.png);
+    background-image: url(img/ab1-logo22.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 
 .logo:hover {
-    background-image: url(/img/ab1-logo33.png);
+    background-image: url(img/ab1-logo33.png);
 }
 
 nav {
@@ -54,7 +54,7 @@ nav {
 }
 
 nav a {
-    margin-right: 10px;
+    margin-right: 30px;
 }
 
 nav a:hover {
@@ -120,18 +120,15 @@ section {
 /*Секция обо мне */
 
 #about {
+    display: flex;
     flex-direction: row;
     align-items: center;
+    margin-top: -100px;
 }
 
 .photo {
-    height: 400px;
-    width: 450px;
-    border-radius: 50%;
-    background-image: url(/img/My-photo.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
+    flex: 0 0 30%;
+    border-radius: 10%;
 }
 
 @media (max-width: 1024px) {
@@ -148,6 +145,7 @@ section {
         font-size: 1em;
     }
     .photo {
+        margin-top: 100px;
         height: 200px;
         width: 200px;
     }
@@ -161,6 +159,7 @@ section {
 }
 
 .about-item {
+    flex: 0 0 60%;
     padding-left: 20px;
 }
 
@@ -360,4 +359,11 @@ li {
 
 #education .text span {
     color: #faff91;
+}
+
+
+/* FOOTER*/
+
+footer {
+    text-align: center;
 }
